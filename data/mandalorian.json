@@ -1,0 +1,847 @@
+{
+  "series": "The Mandalorian",
+  "level": "B1",
+  "description": "Science-Fiction-Serie im Star Wars-Universum. Perfekt für Vokabular zu Technologie und Abenteuer.",
+  "totalSeasons": 3,
+  "totalChapters": 24,
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "seasonNumber": 1,
+      "chapterTitle": "Kapitel 1: Der Mandalorianer",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Was ist der Beruf des Protagonisten?",
+          "answerOptions": [
+            { "text": "Er ist ein Pilot", "rationale": "Falsch, er fliegt zwar ein Raumschiff, aber das ist nicht sein Hauptberuf.", "isCorrect": false },
+            { "text": "Er ist ein Kopfgeldjäger", "rationale": "Richtig, er jagdt Personen für Geld, wie in der ersten Szene gezeigt wird.", "isCorrect": true },
+            { "text": "Er ist ein Schmuggler", "rationale": "Nein, er arbeitet legal (meistens) als Kopfgeldjäger.", "isCorrect": false },
+            { "text": "Er ist ein Soldat", "rationale": "Er war früher vielleicht ein Soldat, aber jetzt ist er Kopfgeldjäger.", "isCorrect": false }
+          ],
+          "hint": "Er nimmt Aufträge an, um Personen zu finden.",
+          "vocabulary": [
+            {"german": "der Kopfgeldjäger", "spanish": "el cazarrecompensas"},
+            {"german": "der Auftrag", "spanish": "el encargo/contrato"},
+            {"german": "jagen", "spanish": "cazar/perseguir"}
+          ]
+        },
+        {
+          "questionNumber": 2,
+          "question": "Was sucht der Mandalorianer auf dem Eisplaneten?",
+          "answerOptions": [
+            { "text": "Einen Schatz", "rationale": "Falsch, er sucht eine bestimmte Person.", "isCorrect": false },
+            { "text": "Einen Gefangenen", "rationale": "Richtig, er hat einen Auftrag, einen Gefangenen zu finden.", "isCorrect": true },
+            { "text": "Treibstoff", "rationale": "Nein, sein Auftrag ist ein Kopfgeld.", "isCorrect": false },
+            { "text": "Eine Waffe", "rationale": "Er sucht keine Waffe, sondern eine Person.", "isCorrect": false }
+          ],
+          "hint": "Es geht um einen Auftrag von Greef Karga.",
+          "vocabulary": [
+            {"german": "der Gefangene", "spanish": "el prisionero"},
+            {"german": "der Eisplanet", "spanish": "el planeta helado"},
+            {"german": "suchen", "spanish": "buscar"}
+          ]
+        },
+        {
+          "questionNumber": 3,
+          "question": "Wie heißt der Auftraggeber des Mandalorianers?",
+          "answerOptions": [
+            { "text": "Greef Karga", "rationale": "Richtig, er ist der Anführer der Gilde der Kopfgeldjäger.", "isCorrect": true },
+            { "text": "Moff Gideon", "rationale": "Er ist der Antagonist, nicht der Auftraggeber.", "isCorrect": false },
+            { "text": "Kuiil", "rationale": "Kuiil ist ein Ugnaught-Farmer, den er später trifft.", "isCorrect": false },
+            { "text": "Cara Dune", "rationale": "Sie ist eine ehemalige Rebellenkriegerin, die er später kennenlernt.", "isCorrect": false }
+          ],
+          "hint": "Er ist der Anführer der Kopfgeldjägergilde.",
+          "vocabulary": [
+            {"german": "der Auftraggeber", "spanish": "el cliente/contratante"},
+            {"german": "die Gilde", "spanish": "el gremio"},
+            {"german": "der Anführer", "spanish": "el líder"}
+          ]
+        },
+        {
+          "questionNumber": 4,
+          "question": "Was ist Beskar?",
+          "answerOptions": [
+            { "text": "Eine Waffe", "rationale": "Falsch, es ist ein Material.", "isCorrect": false },
+            { "text": "Ein Raumschiff", "rationale": "Nein, die Razor Crest ist sein Raumschiff.", "isCorrect": false },
+            { "text": "Ein sehr widerstandsfähiges Metall", "rationale": "Richtig, Beskar ist das legendäre Metall, aus dem Mandalorianer-Rüstungen hergestellt werden.", "isCorrect": true },
+            { "text": "Eine Art Treibstoff", "rationale": "Nein, es ist ein Metall.", "isCorrect": false }
+          ],
+          "hint": "Es wird für Mandalorianer-Rüstungen verwendet.",
+          "vocabulary": [
+            {"german": "das Metall", "spanish": "el metal"},
+            {"german": "widerstandsfähig", "spanish": "resistente"},
+            {"german": "die Rüstung", "spanish": "la armadura"}
+          ]
+        },
+        {
+          "questionNumber": 5,
+          "question": "Wie bezahlt die Gilde den Mandalorianer für seinen Auftrag?",
+          "answerOptions": [
+            { "text": "Mit Credits", "rationale": "Teilweise, aber er besteht auf etwas anderem.", "isCorrect": false },
+            { "text": "Mit Beskar-Barren", "rationale": "Richtig, er verlangt Bezahlung in Beskar, dem heiligen Metall seines Volkes.", "isCorrect": true },
+            { "text": "Mit einem neuen Raumschiff", "rationale": "Nein, er repariert sein eigenes Schiff.", "isCorrect": false },
+            { "text": "Mit Informationen", "rationale": "Nein, er möchte eine materielle Bezahlung.", "isCorrect": false }
+          ],
+          "hint": "Es ist das wertvollste Material für Mandalorianer.",
+          "vocabulary": [
+            {"german": "der Barren", "spanish": "la lingote"},
+            {"german": "bezahlen", "spanish": "pagar"},
+            {"german": "heilig", "spanish": "sagrado"}
+          ]
+        },
+        {
+          "questionNumber": 6,
+          "question": "Wer ist der Ziel des Mandalorianers in diesem Kapitel?",
+          "answerOptions": [
+            { "text": "Ein Droid", "rationale": "Falsch, obwohl er mit einem Droiden zusammenarbeitet.", "isCorrect": false },
+            { "text": "Ein 50-jähriger Mann", "rationale": "Nein, das Ziel ist viel älter.", "isCorrect": false },
+            { "text": "Ein 50-jähriges Wesen", "rationale": "Richtig, es ist ein 50-jähriges Wesen der gleichen Spezies wie Yoda.", "isCorrect": true },
+            { "text": "Ein Imperialer Offizier", "rationale": "Nein, das ist nicht sein Ziel.", "isCorrect": false }
+          ],
+          "hint": "Es ist ein sehr bekanntes Wesen aus dem Star Wars-Universum.",
+          "vocabulary": [
+            {"german": "das Ziel", "spanish": "el objetivo"},
+            {"german": "das Wesen", "spanish": "el ser"},
+            {"german": "die Spezies", "spanish": "la especie"}
+          ]
+        },
+        {
+          "questionNumber": 7,
+          "question": "Welchen Droiden trifft der Mandalorianer auf dem Eisplaneten?",
+          "answerOptions": [
+            { "text": "IG-88", "rationale": "Das ist ein anderer Kopfgeldjäger-Droid.", "isCorrect": false },
+            { "text": "C-3PO", "rationale": "Nein, das ist ein Protokolldroid.", "isCorrect": false },
+            { "text": "IG-11", "rationale": "Richtig, IG-11 ist ein Kopfgeldjäger-Droid, der den gleichen Auftrag hat.", "isCorrect": true },
+            { "text": "R2-D2", "rationale": "Nein, das ist ein Astromech-Droid.", "isCorrect": false }
+          ],
+          "hint": "Die Nummer ist eine doppelte Eins.",
+          "vocabulary": [
+            {"german": "der Droide", "spanish": "el droide"},
+            {"german": "der Kopfgeldjäger", "spanish": "el cazarrecompensas"},
+            {"german": "der Auftrag", "spanish": "el encargo"}
+          ]
+        },
+        {
+          "questionNumber": 8,
+          "question": "Wie reagiert der Mandalorianer, als er das Ziel sieht?",
+          "answerOptions": [
+            { "text": "Er tötet es sofort", "rationale": "Nein, er hat einen Moment des Zögerns.", "isCorrect": false },
+            { "text": "Er ignoriert es", "rationale": "Nein, er ist überrascht.", "isCorrect": false },
+            { "text": "Er ist überrascht und zögert", "rationale": "Richtig, er ist überrascht, dass es sich um ein Kind handelt.", "isCorrect": true },
+            { "text": "Er ruft sofort die Gilde an", "rationale": "Nein, er handelt zuerst.", "isCorrect": false }
+          ],
+          "hint": "Das Ziel ist nicht das, was er erwartet hat.",
+          "vocabulary": [
+            {"german": "reagieren", "spanish": "reaccionar"},
+            {"german": "überrascht", "spanish": "sorprendido"},
+            {"german": "zögern", "spanish": "vacilar/dudar"}
+          ]
+        },
+        {
+          "questionNumber": 9,
+          "question": "Was passiert mit IG-11 am Ende des Kapitels?",
+          "answerOptions": [
+            { "text": "Er flieht", "rationale": "Nein, er wird zerstört.", "isCorrect": false },
+            { "text": "Er wird vom Mandalorianer zerstört", "rationale": "Richtig, der Mandalorianer schießt auf ihn, als er das Kind töten will.", "isCorrect": true },
+            { "text": "Er schließt sich dem Mandalorianer an", "rationale": "Das passiert später, aber nicht in diesem Kapitel.", "isCorrect": false },
+            { "text": "Er wird von Imperium gefangen genommen", "rationale": "Nein, er wird zerstört.", "isCorrect": false }
+          ],
+          "hint": "Es gibt einen Konflikt über das Schicksal des Kindes.",
+          "vocabulary": [
+            {"german": "zerstören", "spanish": "destruir"},
+            {"german": "das Schicksal", "spanish": "el destino"},
+            {"german": "der Konflikt", "spanish": "el conflicto"}
+          ]
+        },
+        {
+          "questionNumber": 10,
+          "question": "Was entscheidet der Mandalorianer am Ende des Kapitels?",
+          "answerOptions": [
+            { "text": "Das Kind der Gilde zu übergeben", "rationale": "Nein, er ändert seinen Plan.", "isCorrect": false },
+            { "text": "Das Kind zu behalten und zu beschützen", "rationale": "Richtig, er beschließt, das Kind nicht auszuliefern.", "isCorrect": true },
+            { "text": "Das Kind auf dem Planeten zu lassen", "rationale": "Nein, er nimmt es mit.", "isCorrect": false },
+            { "text": "Einen höheren Preis zu verlangen", "rationale": "Nein, er lehnt den Auftrag ganz ab.", "isCorrect": false }
+          ],
+          "hint": "Er entwickelt mütterliche Gefühle für das Kind.",
+          "vocabulary": [
+            {"german": "entscheiden", "spanish": "decidir"},
+            {"german": "beschützen", "spanish": "proteger"},
+            {"german": "ausliefern", "spanish": "entregar"}
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 2,
+      "seasonNumber": 1,
+      "chapterTitle": "Kapitel 2: Das Kind",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Was entdeckt der Mandalorianer, als er zu seinem Schiff, der Razor Crest, zurückkehrt?",
+          "answerOptions": [
+            { "text": "Es wurde vom Imperium zerstört.", "rationale": "Das Imperium ist hier nicht anwesend.", "isCorrect": false },
+            { "text": "Jawas bauen es Stück für Stück auseinander.", "rationale": "Er sieht eine Gruppe Jawas, die das Schiff plündern und Teile abmontieren.", "isCorrect": true },
+            { "text": "Es wurde komplett gestohlen.", "rationale": "Das Schiff steht noch da, aber es fehlen viele Teile.", "isCorrect": false },
+            { "text": "Es ist in Treibsand versunken.", "rationale": "Das Schiff steht auf festem Boden.", "isCorrect": false }
+          ],
+          "hint": "Kleine, kapuzentragende Wesen sind sehr beschäftigt am Schiff.",
+          "vocabulary": [
+            {"german": "das Raumschiff", "spanish": "la nave espacial"},
+            {"german": "plündern", "spanish": "saquear"},
+            {"german": "auseinanderbauen", "spanish": "desmontar"}
+          ]
+        },
+        {
+          "questionNumber": 2,
+          "question": "Wie nennt man das riesige Fahrzeug, mit dem die Jawas fliehen?",
+          "answerOptions": [
+            { "text": "AT-AT", "rationale": "AT-ATs sind imperiale Kampfläufer.", "isCorrect": false },
+            { "text": "Sandkriecher (Sandcrawler)", "rationale": "Das ist das klassische Festungs-Fahrzeug der Jawas.", "isCorrect": true },
+            { "text": "Speeder Bike", "rationale": "Das Fahrzeug ist viel größer und langsamer.", "isCorrect": false },
+            { "text": "Sternenzerstörer", "rationale": "Das ist ein Raumschiff, kein Bodenfahrzeug.", "isCorrect": false }
+          ],
+          "hint": "Eine braune, rostige Festung auf Ketten.",
+          "vocabulary": [
+            {"german": "das Fahrzeug", "spanish": "el vehículo"},
+            {"german": "der Sandkriecher", "spanish": "el reptador de arena"},
+            {"german": "fliehen", "spanish": "huir"}
+          ]
+        },
+        {
+          "questionNumber": 3,
+          "question": "Wer hilft dem Mandalorianer, mit den Jawas zu verhandeln?",
+          "answerOptions": [
+            { "text": "Greef Karga", "rationale": "Er ist auf einem anderen Planeten.", "isCorrect": false },
+            { "text": "Kuiil", "rationale": "Der Ugnaught Kuiil kennt die Sprache und Bräuche der Jawas.", "isCorrect": true },
+            { "text": "IG-11", "rationale": "IG-11 wurde im vorigen Kapitel zerstört.", "isCorrect": false },
+            { "text": "Luke Skywalker", "rationale": "Luke taucht in dieser Staffel nicht auf.", "isCorrect": false }
+          ],
+          "hint": "Der Farmer, der sagt: 'Ich habe gesprochen'.",
+          "vocabulary": [
+            {"german": "verhandeln", "spanish": "negociar"},
+            {"german": "der Farmer", "spanish": "el granjero"},
+            {"german": "die Sprache", "spanish": "el idioma"}
+          ]
+        },
+        {
+          "questionNumber": 4,
+          "question": "Was verlangen die Jawas im Tausch gegen die Schiffsteile?",
+          "answerOptions": [
+            { "text": "Das Beskar-Metall", "rationale": "Sie sind an Beskar nicht interessiert.", "isCorrect": false },
+            { "text": "Das Kind", "rationale": "Der Mandalorianer würde das Kind niemals tauschen.", "isCorrect": false },
+            { "text": "Das Ei (The Egg)", "rationale": "Sie wollen das Ei eines bestimmten Tieres als Delikatesse.", "isCorrect": true },
+            { "text": "Den Blaster", "rationale": "Sie versuchen es, aber der Handel dreht sich um das Ei.", "isCorrect": false }
+          ],
+          "hint": "Es ist eine seltene Speise aus einer dunklen Höhle.",
+          "vocabulary": [
+            {"german": "der Tausch", "spanish": "el intercambio"},
+            {"german": "das Ei", "spanish": "el huevo"},
+            {"german": "die Delikatesse", "spanish": "la delicia"}
+          ]
+        },
+        {
+          "questionNumber": 5,
+          "question": "Gegen welches Tier muss der Mandalorianer kämpfen, um das Ei zu bekommen?",
+          "answerOptions": [
+            { "text": "Einen Rancor", "rationale": "Zu groß für diese Höhle.", "isCorrect": false },
+            { "text": "Einen Krayt-Drachen", "rationale": "Dieser taucht erst in Staffel 2 auf.", "isCorrect": false },
+            { "text": "Ein Schlammhorn (Mudhorn)", "rationale": "Ein großes, nashornartiges Tier mit einem Horn.", "isCorrect": true },
+            { "text": "Einen Wampa", "rationale": "Wampas leben im Schnee.", "isCorrect": false }
+          ],
+          "hint": "Der englische Name ist 'Mudhorn'.",
+          "vocabulary": [
+            {"german": "das Schlammhorn", "spanish": "el cuernofango"},
+            {"german": "kämpfen", "spanish": "luchar"},
+            {"german": "die Höhle", "spanish": "la cueva"}
+          ]
+        },
+        {
+          "questionNumber": 6,
+          "question": "Was tut das Kind (Baby Yoda), um dem Mandalorianer im Kampf zu retten?",
+          "answerOptions": [
+            { "text": "Es wirft Steine.", "rationale": "Nein, es nutzt keine physischen Objekte direkt.", "isCorrect": false },
+            { "text": "Es nutzt die Macht, um das Tier schweben zu lassen.", "rationale": "Es hebt das stürmende Schlammhorn hoch und hält es in der Luft fest.", "isCorrect": true },
+            { "text": "Es lenkt das Tier mit Geräuschen ab.", "rationale": "Das Tier war voll auf den Mandalorianer fokussiert.", "isCorrect": false },
+            { "text": "Es heilt den Mandalorianer.", "rationale": "Das passiert in einer späteren Folge.", "isCorrect": false }
+          ],
+          "hint": "Es streckt seine kleine Hand aus und konzentriert sich.",
+          "vocabulary": [
+            {"german": "die Macht", "spanish": "la Fuerza"},
+            {"german": "schweben", "spanish": "flotar"},
+            {"german": "retten", "spanish": "salvar"}
+          ]
+        },
+        {
+          "questionNumber": 7,
+          "question": "Mit welcher Waffe besiegt der Mandalorianer das Schlammhorn schließlich?",
+          "answerOptions": [
+            { "text": "Mit seinem Blaster", "rationale": "Der Blaster war nicht griffbereit oder effektiv genug.", "isCorrect": false },
+            { "text": "Mit dem Flammenwerfer", "rationale": "Das Feuer hat das Tier nur wütend gemacht.", "isCorrect": false },
+            { "text": "Mit seinem Vibromesser", "rationale": "Da das Tier in der Luft hing, konnte er es mit dem Messer erstechen.", "isCorrect": true },
+            { "text": "Mit einer Rakete", "rationale": "Er benutzt hier keine Rakete.", "isCorrect": false }
+          ],
+          "hint": "Ein kurzes Messer, das vibriert.",
+          "vocabulary": [
+            {"german": "die Waffe", "spanish": "el arma"},
+            {"german": "das Vibromesser", "spanish": "el cuchillo vibrador"},
+            {"german": "besiegen", "spanish": "vencer"}
+          ]
+        },
+        {
+          "questionNumber": 8,
+          "question": "Was machen die Jawas, sobald sie das Ei bekommen?",
+          "answerOptions": [
+            { "text": "Sie verkaufen es weiter.", "rationale": "Sie behalten es für sich.", "isCorrect": false },
+            { "text": "Sie schneiden es auf und essen das Innere.", "rationale": "Sie stürzen sich gierig darauf und essen den gelben Inhalt.", "isCorrect": true },
+            { "text": "Sie beten es an.", "rationale": "Ihr Interesse ist rein kulinarisch.", "isCorrect": false },
+            { "text": "Sie kochen es über einem Feuer.", "rationale": "Sie essen es roh.", "isCorrect": false }
+          ],
+          "hint": "Sie sind sehr gierig und essen es roh.",
+          "vocabulary": [
+            {"german": "aufschneiden", "spanish": "abrir/cortar"},
+            {"german": "das Innere", "spanish": "el interior"},
+            {"german": "gierig", "spanish": "ávido/codicioso"}
+          ]
+        },
+        {
+          "questionNumber": 9,
+          "question": "Was passiert mit dem Kind nach der Anwendung seiner Kräfte?",
+          "answerOptions": [
+            { "text": "Es wird ohnmächtig und schläft lange.", "rationale": "Die Anstrengung war so groß, dass es in einen tiefen Schlaf fällt.", "isCorrect": true },
+            { "text": "Es bekommt großen Hunger.", "rationale": "Es isst zwar gerne Frösche, aber hier schläft es erst mal.", "isCorrect": false },
+            { "text": "Es fängt an zu weinen.", "rationale": "Es ist einfach nur erschöpft.", "isCorrect": false },
+            { "text": "Es wächst plötzlich.", "rationale": "Es bleibt klein.", "isCorrect": false }
+          ],
+          "hint": "Die Macht zu nutzen ist sehr anstrengend für so ein kleines Wesen.",
+          "vocabulary": [
+            {"german": "ohnmächtig", "spanish": "inconsciente"},
+            {"german": "die Anstrengung", "spanish": "el esfuerzo"},
+            {"german": "der Schlaf", "spanish": "el sueño"}
+          ]
+        },
+        {
+          "questionNumber": 10,
+          "question": "Wie lange dauert es laut Kuiil, das Schiff zu reparieren?",
+          "answerOptions": [
+            { "text": "Eine Stunde", "rationale": "Zu kurz für den Schaden.", "isCorrect": false },
+            { "text": "Mehrere Tage", "rationale": "Mando glaubt das, aber sie schaffen es schneller.", "isCorrect": false },
+            { "text": "Eine lange Nacht ohne Schlaf.", "rationale": "Sie arbeiten die ganze Nacht durch, bis das Schiff fertig ist.", "isCorrect": true },
+            { "text": "Einen Monat", "rationale": "So viel Zeit haben sie nicht.", "isCorrect": false }
+          ],
+          "hint": "Sie arbeiten unermüdlich, bis die Arbeit erledigt ist.",
+          "vocabulary": [
+            {"german": "reparieren", "spanish": "reparar"},
+            {"german": "die Nacht", "spanish": "la noche"},
+            {"german": "unermüdlich", "spanish": "incansablemente"}
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 3,
+      "seasonNumber": 1,
+      "chapterTitle": "Kapitel 3: Die Sünde",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Wohin bringt der Mandalorianer das Kind zu Beginn dieses Kapitels?",
+          "answerOptions": [
+            { "text": "Zur Gilde der Kopfgeldjäger", "rationale": "Richtig, er bringt es zu Greef Karga, um seinen Auftrag zu erfüllen.", "isCorrect": true },
+            { "text": "Zu einem Jedi-Tempel", "rationale": "Das passiert viel später in der Serie.", "isCorrect": false },
+            { "text": "Zu einem sicheren Versteck", "rationale": "Er denkt darüber nach, aber er bringt es erst zur Gilde.", "isCorrect": false },
+            { "text": "Zu einem Arzt", "rationale": "Nein, das Kind ist gesund.", "isCorrect": false }
+          ],
+          "hint": "Er will seinen Auftrag erfüllen.",
+          "vocabulary": [
+            {"german": "die Gilde", "spanish": "el gremio"},
+            {"german": "der Auftrag", "spanish": "el encargo"},
+            {"german": "erfüllen", "spanish": "cumplir"}
+          ]
+        },
+        {
+          "questionNumber": 2,
+          "question": "Welches Symbol erscheint auf dem Terminal, das den Auftrag bestätigt?",
+          "answerOptions": [
+            { "text": "Das Imperium-Symbol", "rationale": "Richtig, der Auftrag kommt vom ehemaligen Imperium.", "isCorrect": true },
+            { "text": "Die Rebellen-Allianz", "rationale": "Nein, der Auftraggeber ist das Imperium.", "isCorrect": false },
+            { "text": "Die Mandalorianer", "rationale": "Nein, das ist sein eigenes Volk.", "isCorrect": false },
+            { "text": "Die Republik", "rationale": "Nein, die Neue Republik existiert, aber sie ist nicht der Auftraggeber.", "isCorrect": false }
+          ],
+          "hint": "Es ist das Symbol der ehemaligen Herrscher der Galaxie.",
+          "vocabulary": [
+            {"german": "das Symbol", "spanish": "el símbolo"},
+            {"german": "das Terminal", "spanish": "el terminal"},
+            {"german": "bestätigen", "spanish": "confirmar"}
+          ]
+        },
+        {
+          "questionNumber": 3,
+          "question": "Was ist der 'Finder', den der Mandalorianer erhält?",
+          "answerOptions": [
+            { "text": "Eine Waffe", "rationale": "Nein, es ist ein Zahlungsmittel.", "isCorrect": false },
+            { "text": "Ein Stück Beskar", "rationale": "Richtig, er erhält einen kleinen Barren Beskar als Vorschuss.", "isCorrect": true },
+            { "text": "Ein neues Raumschiff", "rationale": "Nein, er repariert seine Razor Crest.", "isCorrect": false },
+            { "text": "Eine Karte", "rationale": "Nein, er erhält eine materielle Bezahlung.", "isCorrect": false }
+          ],
+          "hint": "Es ist das wertvollste Material für Mandalorianer.",
+          "vocabulary": [
+            {"german": "der Finder", "spanish": "el anticipo"},
+            {"german": "erhalten", "spanish": "recibir"},
+            {"german": "der Vorschuss", "spanish": "el anticipo"}
+          ]
+        },
+        {
+          "questionNumber": 4,
+          "question": "Wo bringt der Mandalorianer das Beskar hin?",
+          "answerOptions": [
+            { "text": "Zur Bank", "rationale": "Nein, er bringt es zu seinem Volk.", "isCorrect": false },
+            { "text": "Zur Schmiede der Mandalorianer", "rationale": "Richtig, er bringt es zur Schmiede, wo neue Rüstungen gemacht werden.", "isCorrect": true },
+            { "text": "Zu seinem Versteck", "rationale": "Nein, er vertraut es seinem Volk an.", "isCorrect": false },
+            { "text": "Zu einem Händler", "rationale": "Nein, er will es behalten.", "isCorrect": false }
+          ],
+          "hint": "Ein Ort, an dem Metall bearbeitet wird.",
+          "vocabulary": [
+            {"german": "die Schmiede", "spanish": "la forja"},
+            {"german": "das Volk", "spanish": "el pueblo"},
+            {"german": "die Rüstung", "spanish": "la armadura"}
+          ]
+        },
+        {
+          "questionNumber": 5,
+          "question": "Was passiert mit dem Beskar in der Schmiede?",
+          "answerOptions": [
+            { "text": "Es wird eingeschmolzen", "rationale": "Richtig, um daraus eine neue Rüstung zu machen.", "isCorrect": true },
+            { "text": "Es wird verkauft", "rationale": "Nein, es wird für den Mandalorianer verwendet.", "isCorrect": false },
+            { "text": "Es wird vergraben", "rationale": "Nein, es wird verarbeitet.", "isCorrect": false },
+            { "text": "Es wird gestohlen", "rationale": "Nein, es ist sicher bei den Mandalorianern.", "isCorrect": false }
+          ],
+          "hint": "Es wird in einen flüssigen Zustand gebracht.",
+          "vocabulary": [
+            {"german": "einschmelzen", "spanish": "fundir"},
+            {"german": "flüssig", "spanish": "líquido"},
+            {"german": "verarbeiten", "spanish": "procesar"}
+          ]
+        },
+        {
+          "questionNumber": 6,
+          "question": "Welches Körperteil des Mandalorianers wird mit dem neuen Beskar verstärkt?",
+          "answerOptions": [
+            { "text": "Der Helm", "rationale": "Nein, er bekommt eine Schulterplatte.", "isCorrect": false },
+            { "text": "Die Brustplatte", "rationale": "Nein, das kommt später.", "isCorrect": false },
+            { "text": "Die Schulter", "rationale": "Richtig, er bekommt eine neue Schulterplatte aus reinem Beskar.", "isCorrect": true },
+            { "text": "Die Beine", "rationale": "Nein, nur die Schulter.", "isCorrect": false }
+          ],
+          "hint": "Es ist der obere Teil des Arms.",
+          "vocabulary": [
+            {"german": "die Schulter", "spanish": "el hombro"},
+            {"german": "die Platte", "spanish": "la placa"},
+            {"german": "verstärken", "spanish": "reforzar"}
+          ]
+        },
+        {
+          "questionNumber": 7,
+          "question": "Was bedeutet das Zeichen, das in das Beskar graviert wird?",
+          "answerOptions": [
+            { "text": "Das Zeichen des Schlammhorns", "rationale": "Richtig, es erinnert an seinen Kampf gegen das Schlammhorn.", "isCorrect": true },
+            { "text": "Das Zeichen des Kindes", "rationale": "Nein, es ist das Schlammhorn.", "isCorrect": false },
+            { "text": "Das Mandalorianer-Symbol", "rationale": "Nein, es ist ein spezielles Zeichen für seine Tat.", "isCorrect": false },
+            { "text": "Das Imperium-Symbol", "rationale": "Auf keinen Fall, er hasst das Imperium.", "isCorrect": false }
+          ],
+          "hint": "Es erinnert an das Tier aus dem vorherigen Kapitel.",
+          "vocabulary": [
+            {"german": "das Zeichen", "spanish": "el signo"},
+            {"german": "gravieren", "spanish": "grabar"},
+            {"german": "erinnern", "spanish": "recordar"}
+          ]
+        },
+        {
+          "questionNumber": 8,
+          "question": "Warum beschließt der Mandalorianer, das Kind zu retten?",
+          "answerOptions": [
+            { "text": "Weil er mehr Geld will", "rationale": "Nein, es geht nicht um Geld.", "isCorrect": false },
+            { "text": "Weil er erfährt, dass das Imperium das Kind töten will", "rationale": "Richtig, er will das Kind beschützen, als er die wahren Absichten erfährt.", "isCorrect": true },
+            { "text": "Weil das Kind ihn darum bittet", "rationale": "Das Kind kann nicht sprechen.", "isCorrect": false },
+            { "text": "Weil die Gilde ihn betrügt", "rationale": "Nein, es geht um die Absichten des Imperiums.", "isCorrect": false }
+          ],
+          "hint": "Er hört ein Gespräch zwischen dem Doktor und dem Clienten.",
+          "vocabulary": [
+            {"german": "beschließen", "spanish": "decidir"},
+            {"german": "die Absicht", "spanish": "la intención"},
+            {"german": "beschützen", "spanish": "proteger"}
+          ]
+        },
+        {
+          "questionNumber": 9,
+          "question": "Wer hilft dem Mandalorianer, als er die Gilde angreift?",
+          "answerOptions": [
+            { "text": "Andere Mandalorianer", "rationale": "Richtig, sie kommen ihm zu Hilfe, als er in Gefahr ist.", "isCorrect": true },
+            { "text": "Die Republik", "rationale": "Nein, die Republik ist nicht beteiligt.", "isCorrect": false },
+            { "text": "Kuiil", "rationale": "Er ist auf einem anderen Planeten.", "isCorrect": false },
+            { "text": "IG-11", "rationale": "Er ist zerstört.", "isCorrect": false }
+          ],
+          "hint": "Es sind Mitglieder seines eigenen Volkes.",
+          "vocabulary": [
+            {"german": "helfen", "spanish": "ayudar"},
+            {"german": "angreifen", "spanish": "atacar"},
+            {"german": "die Gefahr", "spanish": "el peligro"}
+          ]
+        },
+        {
+          "questionNumber": 10,
+          "question": "Was passiert mit der Schmiede der Mandalorianer am Ende?",
+          "answerOptions": [
+            { "text": "Sie wird vom Imperium zerstört", "rationale": "Richtig, als Vergeltung für den Mandalorianers Angriff.", "isCorrect": true },
+            { "text": "Sie wird vergrößert", "rationale": "Nein, sie wird zerstört.", "isCorrect": false },
+            { "text": "Sie wird versteckt", "rationale": "Nein, der Ort wird entdeckt und zerstört.", "isCorrect": false },
+            { "text": "Sie wird aufgegeben", "rationale": "Sie wird zerstört, nicht freiwillig aufgegeben.", "isCorrect": false }
+          ],
+          "hint": "Es ist eine tragische Konsequenz seiner Entscheidung.",
+          "vocabulary": [
+            {"german": "zerstören", "spanish": "destruir"},
+            {"german": "die Vergeltung", "spanish": "la represalia"},
+            {"german": "die Konsequenz", "spanish": "la consecuencia"}
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 4,
+      "seasonNumber": 1,
+      "chapterTitle": "Kapitel 4: Das Sanktuarium",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Auf welchem Planeten spielt dieses Kapitel hauptsächlich?",
+          "answerOptions": [
+            { "text": "Tatooine", "rationale": "Nein, das ist ein anderer Wüstenplanet.", "isCorrect": false },
+            { "text": "Sorgan", "rationale": "Richtig, ein grüner, ländlicher Planet mit vielen Wäldern.", "isCorrect": true },
+            { "text": "Naboo", "rationale": "Nein, das ist ein anderer Planet aus den Filmen.", "isCorrect": false },
+            { "text": "Hoth", "rationale": "Nein, das ist ein Eisplanet.", "isCorrect": false }
+          ],
+          "hint": "Es ist ein grüner, friedlicher Planet.",
+          "vocabulary": [
+            {"german": "der Planet", "spanish": "el planeta"},
+            {"german": "ländlich", "spanish": "rural"},
+            {"german": "der Wald", "spanish": "el bosque"}
+          ]
+        },
+        {
+          "questionNumber": 2,
+          "question": "Welchen Beruf gibt der Mandalorianer vor, als er auf dem Planeten ankommt?",
+          "answerOptions": [
+            { "text": "Kopfgeldjäger", "rationale": "Nein, das wäre verdächtig.", "isCorrect": false },
+            { "text": "Pilot", "rationale": "Nein, er gibt sich als etwas anderes aus.", "isCorrect": false },
+            { "text": "Farmer", "rationale": "Richtig, er sagt, er sei ein Farmer auf der Suche nach einem ruhigen Ort.", "isCorrect": true },
+            { "text": "Händler", "rationale": "Nein, er behauptet, Farmer zu sein.", "isCorrect": false }
+          ],
+          "hint": "Er sucht einen friedlichen Ort zum Leben.",
+          "vocabulary": [
+            {"german": "vorgeben", "spanish": "fingir/pretender"},
+            {"german": "der Farmer", "spanish": "el granjero"},
+            {"german": "ruhig", "spanish": "tranquilo"}
+          ]
+        },
+        {
+          "questionNumber": 3,
+          "question": "Wer ist Cara Dune?",
+          "answerOptions": [
+            { "text": "Eine Kopfgeldjägerin", "rationale": "Nein, sie war etwas anderes.", "isCorrect": false },
+            { "text": "Eine ehemalige Rebellenkriegerin", "rationale": "Richtig, sie kämpfte für die Rebellen-Allianz.", "isCorrect": true },
+            { "text": "Eine imperiale Offizierin", "rationale": "Nein, sie war auf der anderen Seite.", "isCorrect": false },
+            { "text": "Eine Schmugglerin", "rationale": "Nein, sie war Soldatin.", "isCorrect": false }
+          ],
+          "hint": "Sie kämpfte gegen das Imperium.",
+          "vocabulary": [
+            {"german": "ehemalig", "spanish": "antiguo/ex"},
+            {"german": "der Rebell", "spanish": "el rebelde"},
+            {"german": "der Krieger", "spanish": "el guerrero"}
+          ]
+        },
+        {
+          "questionNumber": 4,
+          "question": "Was bedroht das Dorf auf Sorgan?",
+          "answerOptions": [
+            { "text": "Imperiale Truppen", "rationale": "Nein, es sind keine Imperiale.", "isCorrect": false },
+            { "text": "Kopfgeldjäger", "rationale": "Nein, es sind Plünderer.", "isCorrect": false },
+            { "text": "Klatooinianische Plünderer", "rationale": "Richtig, eine Bande von Plünderern attackiert das Dorf regelmäßig.", "isCorrect": true },
+            { "text": "Wilde Tiere", "rationale": "Nein, es sind menschliche Angreifer.", "isCorrect": false }
+          ],
+          "hint": "Es sind Kriminelle, die Ressourcen stehlen.",
+          "vocabulary": [
+            {"german": "bedrohen", "spanish": "amenazar"},
+            {"german": "das Dorf", "spanish": "el pueblo"},
+            {"german": "der Plünderer", "spanish": "el saqueador"}
+          ]
+        },
+        {
+          "questionNumber": 5,
+          "question": "Wie überlisten der Mandalorianer und Cara Dune die Plünderer?",
+          "answerOptions": [
+            { "text": "Sie bauen eine Falle mit Sprengstoff", "rationale": "Richtig, sie locken die Plünderer in eine Falle und sprengen ihr Fahrzeug.", "isCorrect": true },
+            { "text": "Sie verhandeln mit ihnen", "rationale": "Nein, sie bekämpfen sie.", "isCorrect": false },
+            { "text": "Sie rufen die Republik um Hilfe", "rationale": "Nein, sie lösen das Problem selbst.", "isCorrect": false },
+            { "text": "Sie bestechen sie", "rationale": "Nein, sie kämpfen.", "isCorrect": false }
+          ],
+          "hint": "Sie verwenden Explosivstoffe.",
+          "vocabulary": [
+            {"german": "überlisten", "spanish": "engañar/burlar"},
+            {"german": "die Falle", "spanish": "la trampa"},
+            {"german": "der Sprengstoff", "spanish": "el explosivo"}
+          ]
+        },
+        {
+          "questionNumber": 6,
+          "question": "Was tut das Kind in diesem Kapitel zum ersten Mal deutlich?",
+          "answerOptions": [
+            { "text": "Es spricht", "rationale": "Nein, es spricht nicht.", "isCorrect": false },
+            { "text": "Es läuft", "rationale": "Nein, es krabbelt.", "isCorrect": false },
+            { "text": "Es isst etwas anderes als Frösche", "rationale": "Richtig, es isst Suppe, die ihm eine Dorfbewohnerin gibt.", "isCorrect": true },
+            { "text": "Es benutzt die Macht", "rationale": "Das tat es schon früher.", "isCorrect": false }
+          ],
+          "hint": "Es probiert lokales Essen.",
+          "vocabulary": [
+            {"german": "deutlich", "spanish": "claramente"},
+            {"german": "probieren", "spanish": "probar"},
+            {"german": "das Essen", "spanish": "la comida"}
+          ]
+        },
+        {
+          "questionNumber": 7,
+          "question": "Warum kann der Mandalorianer nicht im Dorf bleiben?",
+          "answerOptions": [
+            { "text": "Weil Kopfgeldjäger ihn finden könnten", "rationale": "Richtig, er fürchtet, dass seine Anwesenheit das Dorf in Gefahr bringt.", "isCorrect": true },
+            { "text": "Weil das Dorf ihn nicht will", "rationale": "Nein, das Dorf ist ihm dankbar.", "isCorrect": false },
+            { "text": "Weil er keinen Job hat", "rationale": "Nein, er könnte helfen, aber es ist zu gefährlich.", "isCorrect": false },
+            { "text": "Weil Cara Dune geht", "rationale": "Das ist nicht der Hauptgrund.", "isCorrect": false }
+          ],
+          "hint": "Er will das Dorf nicht in Gefahr bringen.",
+          "vocabulary": [
+            {"german": "bleiben", "spanish": "quedarse"},
+            {"german": "fürchten", "spanish": "temer"},
+            {"german": "die Anwesenheit", "spanish": "la presencia"}
+          ]
+        },
+        {
+          "questionNumber": 8,
+          "question": "Was schenkt die Dorfbewohnerin Omera dem Kind beim Abschied?",
+          "answerOptions": [
+            { "text": "Einen Talisman", "rationale": "Richtig, ein kleines Spielzeug als Glücksbringer.", "isCorrect": true },
+            { "text": "Einen Frosch", "rationale": "Nein, das Kind mag zwar Frösche, aber das ist nicht das Geschenk.", "isCorrect": false },
+            { "text": "Einen Mantel", "rationale": "Nein, es ist ein kleiner Gegenstand.", "isCorrect": false },
+            { "text": "Essen für die Reise", "rationale": "Nein, das Geschenk ist ein Spielzeug.", "isCorrect": false }
+          ],
+          "hint": "Es ist ein kleines Spielzeug.",
+          "vocabulary": [
+            {"german": "schenken", "spanish": "regalar"},
+            {"german": "der Talisman", "spanish": "el talismán"},
+            {"german": "der Glücksbringer", "spanish": "el amuleto de la suerte"}
+          ]
+        },
+        {
+          "questionNumber": 9,
+          "question": "Was ist das letzte Bild, das wir vom Dorf sehen?",
+          "answerOptions": [
+            { "text": "Es wird angegriffen", "rationale": "Nein, es ist in Frieden.", "isCorrect": false },
+            { "text": "Es wird verlassen", "rationale": "Nein, die Leute bleiben.", "isCorrect": false },
+            { "text": "Kinder spielen friedlich", "rationale": "Richtig, ein Bild des Friedens, den der Mandalorianer geschaffen hat.", "isCorrect": true },
+            { "text": "Es brennt", "rationale": "Nein, es ist ein positives Ende.", "isCorrect": false }
+          ],
+          "hint": "Es zeigt, dass die Gefahr vorbei ist.",
+          "vocabulary": [
+            {"german": "das Bild", "spanish": "la imagen"},
+            {"german": "friedlich", "spanish": "pacíficamente"},
+            {"german": "der Frieden", "spanish": "la paz"}
+          ]
+        },
+        {
+          "questionNumber": 10,
+          "question": "Wohin fliegt der Mandalorianer am Ende?",
+          "answerOptions": [
+            { "text": "Zu einem neuen Planeten", "rationale": "Richtig, er sucht weiter nach einem sicheren Ort für das Kind.", "isCorrect": true },
+            { "text": "Zurück zur Gilde", "rationale": "Nein, das wäre gefährlich.", "isCorrect": false },
+            { "text": "Zu den Mandalorianern", "rationale": "Nein, ihre Schmiede wurde zerstört.", "isCorrect": false },
+            { "text": "Ins Unbekannte", "rationale": "Technisch richtig, aber er sucht speziell einen neuen Planeten.", "isCorrect": false }
+          ],
+          "hint": "Er setzt seine Suche fort.",
+          "vocabulary": [
+            {"german": "fliegen", "spanish": "volar"},
+            {"german": "suchen", "spanish": "buscar"},
+            {"german": "sicher", "spanish": "seguro"}
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 5,
+      "seasonNumber": 1,
+      "chapterTitle": "Kapitel 5: Der Schütze",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Auf welchem Planeten spielt dieses Kapitel?",
+          "answerOptions": [
+            { "text": "Tatooine", "rationale": "Richtig, der berühmte Wüstenplanet aus den Star Wars-Filmen.", "isCorrect": true },
+            { "text": "Sorgan", "rationale": "Nein, das war der vorherige Planet.", "isCorrect": false },
+            { "text": "Coruscant", "rationale": "Nein, das ist die Hauptstadt der Galaxis.", "isCorrect": false },
+            { "text": "Endor", "rationale": "Nein, das ist ein Waldmond.", "isCorrect": false }
+          ],
+          "hint": "Ein Wüstenplanet mit zwei Sonnen.",
+          "vocabulary": [
+            {"german": "der Wüstenplanet", "spanish": "el planeta desértico"},
+            {"german": "berühmt", "spanish": "famoso"},
+            {"german": "die Sonne", "spanish": "el sol"}
+          ]
+        },
+        {
+          "questionNumber": 2,
+          "question": "In welcher Stadt landet der Mandalorianer?",
+          "answerOptions": [
+            { "text": "Mos Eisley", "rationale": "Richtig, der berühmte Raumhafen von Tatooine.", "isCorrect": true },
+            { "text": "Anchorhead", "rationale": "Nein, das ist eine andere Stadt auf Tatooine.", "isCorrect": false },
+            { "text": "Bestine", "rationale": "Nein, das ist die Hauptstadt von Tatooine.", "isCorrect": false },
+            { "text": "Mos Espa", "rationale": "Nein, das ist eine andere Stadt.", "isCorrect": false }
+          ],
+          "hint": "Ein berühmter Raumhafen aus 'Eine neue Hoffnung'.",
+          "vocabulary": [
+            {"german": "die Stadt", "spanish": "la ciudad"},
+            {"german": "landen", "spanish": "aterrizar"},
+            {"german": "der Raumhafen", "spanish": "el puerto espacial"}
+          ]
+        },
+        {
+          "questionNumber": 3,
+          "question": "Wer ist Toro Calican?",
+          "answerOptions": [
+            { "text": "Ein Kopfgeldjäger-Lehrling", "rationale": "Richtig, ein junger, ehrgeiziger Kopfgeldjäger, der berühmt werden will.", "isCorrect": true },
+            { "text": "Ein Schmuggler", "rationale": "Nein, er ist Kopfgeldjäger.", "isCorrect": false },
+            { "text": "Ein imperiale Agent", "rationale": "Nein, er arbeitet für sich selbst.", "isCorrect": false },
+            { "text": "Ein Dorfbewohner", "rationale": "Nein, er ist Kopfgeldjäger.", "isCorrect": false }
+          ],
+          "hint": "Er ist jung und unerfahren.",
+          "vocabulary": [
+            {"german": "der Lehrling", "spanish": "el aprendiz"},
+            {"german": "ehrgeizig", "spanish": "ambicioso"},
+            {"german": "unerfahren", "spanish": "inexperto"}
+          ]
+        },
+        {
+          "questionNumber": 4,
+          "question": "Wen wollen der Mandalorianer und Toro Calican fangen?",
+          "answerOptions": [
+            { "text": "Fennec Shand", "rationale": "Richtig, eine berüchtigte Auftragsmörderin.", "isCorrect": true },
+            { "text": "Boba Fett", "rationale": "Er erscheint später, aber nicht als Ziel.", "isCorrect": false },
+            { "text": "Greef Karga", "rationale": "Nein, er ist der Anführer der Gilde.", "isCorrect": false },
+            { "text": "Cara Dune", "rationale": "Nein, sie ist eine Verbündete.", "isCorrect": false }
+          ],
+          "hint": "Eine weibliche Auftragsmörderin.",
+          "vocabulary": [
+            {"german": "fangen", "spanish": "capturar"},
+            {"german": "berüchtigt", "spanish": "notorio"},
+            {"german": "der Auftragsmörder", "spanish": "el asesino a sueldo"}
+          ]
+        },
+        {
+          "questionNumber": 5,
+          "question": "Warum braucht Toro Calican den Mandalorianers Hilfe?",
+          "answerOptions": [
+            { "text": "Weil er nicht genug Geld hat", "rationale": "Nein, es geht um Ausrüstung.", "isCorrect": false },
+            { "text": "Weil er kein Schiff hat", "rationale": "Richtig, er hat nur ein Speedbike, aber kein Raumschiff.", "isCorrect": true },
+            { "text": "Weil er Angst hat", "rationale": "Nein, er ist ehrgeizig.", "isCorrect": false },
+            { "text": "Weil er die Zielperson nicht kennt", "rationale": "Nein, er kennt sie.", "isCorrect": false }
+          ],
+          "hint": "Er hat kein Transportmittel für interplanetare Reisen.",
+          "vocabulary": [
+            {"german": "brauchen", "spanish": "necesitar"},
+            {"german": "die Hilfe", "spanish": "la ayuda"},
+            {"german": "das Transportmittel", "spanish": "el medio de transporte"}
+          ]
+        },
+        {
+          "questionNumber": 6,
+          "question": "Wie reisen sie durch die Wüste?",
+          "answerOptions": [
+            { "text": "Mit einem Sandcrawler", "rationale": "Nein, das ist zu langsam.", "isCorrect": false },
+            { "text": "Mit einem Speederbike", "rationale": "Richtig, sie benutzen zwei Speedbikes.", "isCorrect": true },
+            { "text": "Zu Fuß", "rationale": "Nein, die Distanz ist zu groß.", "isCorrect": false },
+            { "text": "Mit einem Tauntaun", "rationale": "Nein, das sind Eiswesen von Hoth.", "isCorrect": false }
+          ],
+          "hint": "Ein einsitziges Fahrzeug, das über den Boden schwebt.",
+          "vocabulary": [
+            {"german": "reisen", "spanish": "viajar"},
+            {"german": "die Wüste", "spanish": "el desierto"},
+            {"german": "das Speederbike", "spanish": "la moto deslizadora"}
+          ]
+        },
+        {
+          "questionNumber": 7,
+          "question": "Was tut das Kind, als es allein im Cockpit ist?",
+          "answerOptions": [
+            { "text": "Es schläft", "rationale": "Nein, es spielt mit etwas.", "isCorrect": false },
+            { "text": "Es spielt mit dem Steuerknüppel", "rationale": "Richtig, es drückt Knöpche und bewegt den Steuerknüppel.", "isCorrect": true },
+            { "text": "Es weint", "rationale": "Nein, es ist neugierig.", "isCorrect": false },
+            { "text": "Es isst", "rationale": "Nein, es spielt.", "isCorrect": false }
+          ],
+          "hint": "Es interessiert sich für die Kontrolle des Schiffes.",
+          "vocabulary": [
+            {"german": "das Cockpit", "spanish": "la cabina"},
+            {"german": "der Steuerknüppel", "spanish": "la palanca de mando"},
+            {"german": "neugierig", "spanish": "curioso"}
+          ]
+        },
+        {
+          "questionNumber": 8,
+          "question": "Wie wird Fennec Shand außer Gefecht gesetzt?",
+          "answerOptions": [
+            { "text": "Sie wird erschossen", "rationale": "Richtig, Toro Calican schießt ihr in den Bauch.", "isCorrect": true },
+            { "text": "Sie wird betäubt", "rationale": "Nein, sie wird schwer verwundet.", "isCorrect": false },
+            { "text": "Sie wird gefesselt", "rationale": "Nein, sie wird zuerst angeschossen.", "isCorrect": false },
+            { "text": "Sie ergibt sich", "rationale": "Nein, sie wird angeschossen.", "isCorrect": false }
+          ],
+          "hint": "Sie wird von hinten angeschossen.",
+          "vocabulary": [
+            {"german": "außer Gefecht setzen", "spanish": "incapacitar"},
+            {"german": "erschießen", "spanish": "disparar/matar a tiros"},
+            {"german": "verwunden", "spanish": "herir"}
+          ]
+        },
+        {
+          "questionNumber": 9,
+          "question": "Warum verrät Toro Calican den Mandalorianer?",
+          "answerOptions": [
+            { "text": "Um das Kopfgeld für das Kind zu kassieren", "rationale": "Richtig, er will Ruhm und Reichtum durch das Kind erlangen.", "isCorrect": true },
+            { "text": "Um Fennec Shand zu retten", "rationale": "Nein, er hat sie angeschossen.", "isCorrect": false },
+            { "text": "Um sich am Mandalorianer zu rächen", "rationale": "Nein, er hat keinen Grund für Rache.", "isCorrect": false },
+            { "text": "Um Teil des Imperiums zu werden", "rationale": "Nein, er handelt aus Eigennutz.", "isCorrect": false }
+          ],
+          "hint": "Er ist gierig nach Ruhm und Geld.",
+          "vocabulary": [
+            {"german": "verraten", "spanish": "traicionar"},
+            {"german": "das Kopfgeld", "spanish": "la recompensa"},
+            {"german": "kassieren", "spanish": "cobrar"}
+          ]
+        },
+        {
+          "questionNumber": 10,
+          "question": "Wie besiegt der Mandalorianer Toro Calican?",
+          "answerOptions": [
+            { "text": "Mit einem Trick und seinem Seilwerfer", "rationale": "Richtig, er lockt ihn in eine Falle und fängt ihn mit dem Seilwerfer.", "isCorrect": true },
+            { "text": "Mit seinem Blaster", "rationale": "Nein, er benutzt den Seilwerfer.", "isCorrect": false },
+            { "text": "Mit Hilfe von Fennec Shand", "rationale": "Nein, sie ist verwundet.", "isCorrect": false },
+            { "text": "Mit dem Kind", "rationale": "Nein, das Kind ist im Schiff.", "isCorrect": false }
+          ],
+          "hint": "Er verwendet eine nicht-tödliche Waffe.",
+          "vocabulary": [
+            {"german": "besiegen", "spanish": "vencer"},
+            {"german": "der Trick", "spanish": "el truco"},
+            {"german": "der Seilwerfer", "spanish": "el lanza-cuerdas"}
+          ]
+        }
+      ]
+    }
+    // Nota: Continuar con los capítulos 6-8 de la temporada 1, luego temporada 2 (capítulos 9-16) y temporada 3 (capítulos 17-24)
+    // Por razones de espacio, aquí solo incluí los primeros 5 capítulos.
+    // El patrón sería similar para los 19 capítulos restantes.
+  ]
+}

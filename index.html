@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsch Lernen mit Serien - B1/B2</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --success: #27ae60;
+            --warning: #f39c12;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: var(--light);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            border-left: 5px solid var(--secondary);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, var(--secondary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #95a5a6;
+            margin-bottom: 20px;
+        }
+
+        .instructions {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--warning);
+        }
+
+        .instructions h3 {
+            color: var(--warning);
+            margin-bottom: 10px;
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .series-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .series-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .series-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--secondary);
+            box-shadow: 0 10px 30px rgba(52, 152, 219, 0.3);
+        }
+
+        .series-image-container {
+            width: 100%;
+            height: 450px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        .series-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .series-card:hover .series-image {
+            transform: scale(1.0);
+        }
+
+        .series-title-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .series-info {
+            padding: 20px;
+        }
+
+        .series-info h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--light);
+        }
+
+        .series-info p {
+            color: #bdc3c7;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .series-meta {
+            display: flex;
+            justify-content: space-between;
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .level-badge {
+            background: rgba(52, 152, 219, 0.2);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+
+        .series-stats {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            background: rgba(52, 152, 219, 0.1);
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            border: 1px solid rgba(52, 152, 219, 0.2);
+        }
+
+        .image-error {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .language-info {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .language-info h3 {
+            color: var(--success);
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .series-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .series-title-overlay {
+                font-size: 1rem;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deutsch Lernen mit Serien</h1>
+            <p class="subtitle">Niveau B1-B2 • Verbessere dein Deutsch durch beliebte Serien</p>
+        </header>
+
+        <section class="instructions">
+            <h3>📋 Wie funktioniert das?</h3>
+            <ol>
+                <li>Schau dir eine Folge der Serie auf Disney+ oder Netflix an (mit deutschen Untertiteln oder Audio)</li>
+                <li>Wähle die Serie aus und beantworte die 10 Fragen zum Verständnis</li>
+                <li>Erhalte sofortiges Feedback mit Erklärungen auf Deutsch</li>
+                <li>Wiederhole schwierige Fragen und verbessere deine Punktzahl</li>
+                <li>Lerne neues Vokabular und übe Grammatik im Kontext</li>
+            </ol>
+        </section>
+
+        <main>
+            <h2 style="text-align: center; margin-bottom: 20px; color: var(--secondary);">🎬 Verfügbare Serien</h2>
+            
+            <div class="series-grid" id="series-container">
+                <!-- Las series se cargarán dinámicamente -->
+            </div>
+        </main>
+
+        <section class="language-info">
+            <h3>🎯 Sprachliche Ziele dieses Kurses</h3>
+            <p>• Erweiterung des Wortschatzes zu Alltagsthemen<br>
+               • Verständnis von Umgangssprache und Redewendungen<br>
+               • Übung des Hörverstehens mit verschiedenen Akzenten<br>
+               • Grammatik im Kontext: Satzbau, Zeiten, Präpositionen</p>
+        </section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <footer class="footer">
+  <div class="footer-content">
+    <img src="images/Logo5.png" alt="GeoWay Logo" width="10%" height="10%">
+    <div class="footer-text">
+      <p>© 2023 GEOWAY – Deutsch Lernen mit Serien • Für Spanischsprechende (Niveau B1–B2)</p>
+      <p>Alle Serienrechte gehören ihren jeweiligen Eigentümern. Diese Seite dient nur Bildungszwecken.</p>
+    </div>
+  </div>
+
+    </div>
+
+    <script>
+        // Datos de las series
+        const seriesData = [
+            {
+                id: "mandalorian",
+                title: "The Mandalorian",
+                description: "Science-Fiction-Serie im Star Wars-Universum. Perfekt für Vokabular zu Technologie und Abenteuer.",
+                level: "B1",
+                seasons: 3,
+                chapters: 24,
+                image: "images/mandalorian.jpg",
+                quizFile: "series/mandalorian.html"
+            },
+            {
+                id: "lacasaalemana",
+                title: "La casa Alemana",
+                description: "Drama über eine deutsche Familie in den 1960er Jahren. Ideal für Alltagsvokabular und Familienbeziehungen.",
+                level: "B2",
+                seasons: 2,
+                chapters: 12,
+                image: "images/lacasaalemana.jpg",
+                quizFile: "series/lacasaalemana.html"
+            },
+            {
+                id: "diedrei",
+                title: "Die drei",
+                description: "Krimiserie über drei Detektive. Gut für Vokabular zu Kriminalität und Problemlösung.",
+                level: "B1+",
+                seasons: 4,
+                chapters: 40,
+                image: "images/diedrei.jpg",
+                quizFile: "series/diedrei.html"
+            },
+            {
+                id: "sameinsache",
+                title: "Sam ein Sache",
+                description: "Comedyserie über das Leben eines jungen Mannes in Berlin. Perfekt für Umgangssprache und jugendlichen Slang.",
+                level: "B2",
+                seasons: 3,
+                chapters: 36,
+                image: "images/sameinsache.jpg",
+                quizFile: "series/sameinsache.html"
+            },
+            {
+                id: "pauline",
+                title: "Pauline",
+                description: "Dramaserie über eine junge Frau, die ihr Leben neu ordnet. Gut für emotionale und zwischenmenschliche Themen.",
+                level: "B1",
+                seasons: 2,
+                chapters: 16,
+                image: "images/pauline.jpg",
+                quizFile: "series/pauline.html"
+            }
+        ];
+
+        // Colores de fallback para cada serie
+        const fallbackColors = {
+            mandalorian: ["#3d5a80", "#98c1d9"],
+            lacasaalemana: ["#6d6875", "#b5838d"],
+            diedrei: ["#2d6a4f", "#40916c"],
+            sameinsache: ["#f48c06", "#ffba08"],
+            pauline: ["#9d4edd", "#c77dff"]
+        };
+
+        // Cargar las series en la página
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('series-container');
+            
+            seriesData.forEach(series => {
+                const card = document.createElement('a');
+                card.href = series.quizFile;
+                card.className = 'series-card';
+                
+                // Crear el contenedor de imagen con manejo de errores
+                const imageContainer = document.createElement('div');
+                imageContainer.className = 'series-image-container';
+                
+                const image = document.createElement('img');
+                image.className = 'series-image';
+                image.src = series.image;
+                image.alt = series.title;
+                
+                // Manejo de error si la imagen no carga
+                image.onerror = function() {
+                    console.error(`Imagen no encontrada: ${series.image}`);
+                    image.style.display = 'none';
+                    
+                    // Crear fallback con color
+                    const fallbackDiv = document.createElement('div');
+                    fallbackDiv.className = 'image-error';
+                    const colors = fallbackColors[series.id] || ["#667eea", "#764ba2"];
+                    fallbackDiv.style.background = `linear-gradient(135deg, ${colors[0]} 0%, ${colors[1]} 100%)`;
+                    fallbackDiv.textContent = series.title;
+                    
+                    imageContainer.appendChild(fallbackDiv);
+                };
+                
+                const titleOverlay = document.createElement('div');
+                titleOverlay.className = 'series-title-overlay';
+                titleOverlay.textContent = series.title;
+                
+                imageContainer.appendChild(image);
+                imageContainer.appendChild(titleOverlay);
+                
+                // Crear el contenido de información
+                const infoDiv = document.createElement('div');
+                infoDiv.className = 'series-info';
+                infoDiv.innerHTML = `
+                    <h3>${series.title}</h3>
+                    <p>${series.description}</p>
+                    <div class="series-meta">
+                        <span class="level-badge">Niveau: ${series.level}</span>
+                        <span>📺 ${series.seasons} Staffel(n)</span>
+                    </div>
+                    <div class="series-stats">
+                        <span class="stat-item">${series.chapters} Kapitel</span>
+                        <span class="stat-item">🎯 B1-B2</span>
+                    </div>
+                `;
+                
+                // Construir la tarjeta
+                card.appendChild(imageContainer);
+                card.appendChild(infoDiv);
+                
+                container.appendChild(card);
+            });
+        });
+    </script>
+</body>
+</html>

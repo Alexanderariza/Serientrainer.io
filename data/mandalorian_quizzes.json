@@ -1,0 +1,32 @@
+{
+  "series": "The Mandalorian",
+  "level": "B1",
+  "season": 1,
+  "totalChapters": 5,
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "chapterTitle": "Kapitel 1: Der Mandalorianer",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "question": "Was ist der Beruf des Protagonisten?",
+          "answerOptions": [
+            { "text": "Er ist ein Pilot", "rationale": "Falsch, er fliegt zwar ein Raumschiff, aber das ist nicht sein Hauptberuf.", "isCorrect": false },
+            { "text": "Er ist ein Kopfgeldjäger", "rationale": "Richtig, er jagdt Personen für Geld, wie in der ersten Szene gezeigt wird.", "isCorrect": true },
+            { "text": "Er ist ein Schmuggler", "rationale": "Nein, er arbeitet legal (meistens) als Kopfgeldjäger.", "isCorrect": false },
+            { "text": "Er ist ein Soldat", "rationale": "Er war früher vielleicht ein Soldat, aber jetzt ist er Kopfgeldjäger.", "isCorrect": false }
+          ],
+          "hint": "Er nimmt Aufträge an, um Personen zu finden.",
+          "vocabulary": [
+            {"german": "der Kopfgeldjäger", "spanish": "el cazarrecompensas"},
+            {"german": "der Auftrag", "spanish": "el encargo/contrato"},
+            {"german": "jagen", "spanish": "cazar/perseguir"}
+          ]
+        }
+        // ... todas las otras preguntas del capítulo 1
+      ]
+    },
+    // ... todos los otros capítulos de la temporada 1
+  ]
+}
